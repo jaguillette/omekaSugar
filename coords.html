@@ -42,6 +42,7 @@ var do_conversion = function () {
 }
 
 var degrees2meters = function(lon,lat) {
+  // This function written by Wayne Graham and posted here: http://omeka.org/forums-legacy/topic/importing-dublin-core-coverage-data-to-neatline
   var x = lon * 20037508.34 / 180;
   var y = Math.log(Math.tan((90 + lat) * Math.PI / 360)) / (Math.PI / 180);
   y = y * 20037508.34 / 180;
