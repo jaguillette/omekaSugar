@@ -1,0 +1,52 @@
+---
+layout: page
+title: Coordinate Converter
+permalink: /coords/
+---
+
+<p>This converter will take latitude and longitude coordinates from WGS84 (the standard used by most web mapping services) and convert them to WKT points in the Spherical Mercator projection that Neatline Uses.</p>
+
+<p>To use it, enter your coordinates as "latitude,longitude" or "y,x" pairs. You can convert multiple pairs at once, just put them on new lines. When you click "Convert!", the converted coordinates will appear in the output box, ready to be used by Neatline.</p>
+
+<div style="display:block;float:left;">
+  <label for="input" style="display:block;">Input</label>
+  <textarea id="input" type="textarea" rows="15" cols="30"></textarea>
+</div>
+<div style="display:block;float:left;">
+  <label for="output" style="display:block;">Output</label>
+  <textarea id="output" type="textarea" rows="15" cols="60"></textarea>
+</div>
+<input id="convert" type="submit" value="Convert!" style="display: block;width: 53em;"></input>
+
+<script>
+var input = document.getElementById("input");
+var output = document.getElementById("output");
+var convert = document.getElementById("convert");
+
+function initElement() {
+  convert.onclick = do_conversion;
+};
+
+var do_conversion = function () {
+  input_text = input.value;
+  coord_strings = input_text.split("\n");
+  coord_pairs = coord_strings.map( function(element) { return element.split(','); });
+  output_pairs = coord_pairs.map( function(element) {
+    return degrees2meters(parseFloat(element[1]), parseFloat(element[0]));
+  });
+  output_strings = output_pairs.map( function(element) {
+    return "POINT("+element[0]+" "+element[1]+")";
+  });
+  output_strings = output_strings.join("\n");
+  output.value = output_strings;
+}
+
+var degrees2meters = function(lon,lat) {
+  var x = lon * 20037508.34 / 180;
+  var y = Math.log(Math.tan((90 + lat) * Math.PI / 360)) / (Math.PI / 180);
+  y = y * 20037508.34 / 180;
+  return [x, y]
+}
+
+initElement()
+</script>
