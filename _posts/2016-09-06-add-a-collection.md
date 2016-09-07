@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Adding a new Collection"
+title:  "Add a New Collection"
 date:   2016-09-06 14:07:58 -0400
 categories: tutorial collections
 ---
 
 Collections are a basic unit of aggregation in Omeka. Unsurprisingly, they collect Items, ideally into logically consistent categories that add context to the Items. It's worth noting that an Item can only belong to one Collection, no more.
 
-Let's make a new Collection, starting from the Admin dashboard.
+Let's make a new Collection, starting from the Admin dashboard that you see when you log in to Omeka.
 
 <div class='gfyitem' data-id='CluelessAdolescentChevrotain' data-autoplay='false' data-responsive='true' style='padding-bottom:1em;'></div>
 

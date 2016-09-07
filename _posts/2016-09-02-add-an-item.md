@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Adding a New Item"
+title:  "Add a New Item"
 date:   2016-09-02 13:26:23 -0400
 categories: tutorial items
 ---
@@ -21,6 +21,6 @@ You might also want to tag your items, to group them together. You can add tags 
 
 <div class='gfyitem' data-id='OpenJealousAdmiralbutterfly' data-autoplay='false' data-responsive='true' style='padding-bottom:1em;'></div>
 
-There you have it, adding Items in Omeka.
+That's it, now you have a basic Omeka Item.
 
 <script type="text/javascript" src="https://assets.gfycat.com/gfycat.js"></script>
