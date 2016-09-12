@@ -29,11 +29,11 @@ You'll need to enable the Simile widget for each Neatline Record that you want t
 
 Then you'll need to set the date parameters for that record. There are two different date parameters. Start and End dates control where the Record displays on the timeline. You can just set a Start Date to make a record show up as a single point on the timeline, or both for a span of time.
 
-<div class="gfycontainer"><div class='gfyitem' data-id='CavernousShorttermBarebirdbat' data-autoplay='false' data-responsive='true'></div></div>
+<div class="gfycontainer"><div class='gfyitem' data-id='ActiveOldfashionedBlacklab' data-autoplay='false' data-responsive='true'></div></div>
 
 Before and After dates control when the map geometry for the Record will display as a user moves through the timeline.
 
-<div class="gfycontainer"><div class='gfyitem' data-id='DopeyFearfulGrayreefshark' data-autoplay='false' data-responsive='true'></div></div>
+<div class="gfycontainer"><div class='gfyitem' data-id='PeriodicWindingGreyhounddog' data-autoplay='false' data-responsive='true'></div></div>
 
 Now you have a Record in your Neatline Exhibit that also shows up on a timeline. Just as you can click on the map geometry for a record to bring up its description, you can click on a timeline segment to do the same thing.
 
