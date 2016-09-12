@@ -9,7 +9,7 @@ In Omeka, if you want to tell a story using the Items and other content you've c
 
 Let's create a new exhibit, starting from the Admin dashboard you see when you log in to an Omeka site.
 
-<div class='gfyitem' data-id='DirtyDependableHerculesbeetle' data-autoplay='false' data-responsive='true'></div>
+<div class="gfycontainer"><div class='gfyitem' data-id='DirtyDependableHerculesbeetle' data-autoplay='false' data-responsive='true'></div></div>
 
 You'll notice that I only added a title, which is the only mandatory exhibit descriptor. Here's what the other options are for:
 
@@ -23,15 +23,15 @@ You'll notice that I only added a title, which is the only mandatory exhibit des
 
 After these options, we have the Pages section, where the content goes. Exhibits can be broken up into as many pages as you like, and can be arranged hierarchically. Each Page gets its own URL and place in the exhibit navigation.
 
-<div class='gfyitem' data-id='ThickUnsightlyCorydorascatfish' data-autoplay='false' data-responsive='true'></div>
+<div class="gfycontainer"><div class='gfyitem' data-id='ThickUnsightlyCorydorascatfish' data-autoplay='false' data-responsive='true'></div></div>
 
 Pages are made of Blocks, which contain different kinds of content. You'll see at least "File with Text", "Gallery", "Text", and "File" blocks, but other Omeka plugins may add their own Blocks. All of the Blocks just mentioned use Items for their content, with the exception of the Text Block. Let's add some Items to a "File with Text" Block.
 
-<div class='gfyitem' data-id='DistantDeafeningBassethound' data-autoplay='false' data-responsive='true'></div>
+<div class="gfycontainer"><div class='gfyitem' data-id='DistantDeafeningBassethound' data-autoplay='false' data-responsive='true'></div></div>
 
 It's pretty easy to include Items into a narrative in this way. Like Pages, blocks can be rearranged once created, although they have no hierarchy.
 
-<div class='gfyitem' data-id='EnchantingMeanGoitered' data-autoplay='false' data-responsive='true'></div>
+<div class="gfycontainer"><div class='gfyitem' data-id='EnchantingMeanGoitered' data-autoplay='false' data-responsive='true'></div></div>
 
 These are the basic building blocks of Omeka Exhibits, which can be combined in a variety of ways to tell stories about the items in an Omeka site.
 
