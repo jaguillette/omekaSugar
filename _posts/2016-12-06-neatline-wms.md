@@ -44,6 +44,7 @@ the WMS url you just copied in. If another site gives you a similar-looking url,
 then there's a good chance it'll work.
 
 Some things that I run into when testing out these layers:
+
 * Especially for maps at a small scale, they won't show up until you're looking
 right at them, and Neatline may not zoom to them. Find out where your map is,
 and see if it's where it should be.
