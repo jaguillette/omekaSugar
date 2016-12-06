@@ -43,6 +43,17 @@ ways. In any case, you'll need a url, as well as the layer title. Take a look at
 the WMS url you just copied in. If another site gives you a similar-looking url,
 then there's a good chance it'll work.
 
+Some things that I run into when testing out these layers:
+* Especially for maps at a small scale, they won't show up until you're looking
+right at them, and Neatline may not zoom to them. Find out where your map is,
+and see if it's where it should be.
+* The default fill opacity for a record in Neatline is 0.3 (only 30% opaque), so
+your map will probably be very faint when you first load it. If you're having a
+hard time seeing it, bump the opacity up to 1 (100% opaque).
+* Double check that you've copied the right url. It should look something like
+http://warp.worldmap.harvard.edu/maps/wms/14, which you'll notice is short and
+has "wms" in it.
+
 If there are specific sites that you'd like to see covered in this tutorial,
 you can [submit an issue on this site's GitHub repo](https://github.com/jaguillette/omekaSugar/issues),
 or [email the author](mailto:jguillette@fas.harvard.edu). No guarantees it'll
