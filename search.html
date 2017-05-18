@@ -6,7 +6,7 @@ title: Search
 li { list-style: none; }
 </style>
 
-<form action="{{ "/assets/style.css" | relative_url }}" method="get">
+<form action='{{ "/search.html" | relative_url }}' method="get">
   <label for"search-box">Search</label>
   <input type="text" id="search-box" name="query">
   <input type="submit" value="search">
@@ -41,5 +41,5 @@ li { list-style: none; }
     {% endfor %}
   };
 </script>
-<script src="/js/lunr.min.js"></script>
-<script src="/js/search.js"></script>
+<script src='{{ "/js/lunr.min.js" | relative_url }}' charset="utf-8"></script>
+<script src='{{ "/js/search.js" | relative_url }}' charset="utf-8"></script>
