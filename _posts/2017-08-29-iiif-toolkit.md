@@ -30,3 +30,7 @@ When you click "Import", you'll be taken to a progress page, and see the status 
 When the import completes, you will have a new item for each image represented in the manifest, and a new collection that brings together all of the images in the manifest.
 
 If you find that you've imported more than you've bargained for, you can run a search for items sourced to the IIIF manifest, and delete them all via the search results page there.
+
+<div class="gfycontainer"><div class='gfyitem' data-id='MaleInformalKookaburra' data-autoplay='false' data-responsive='true'></div></div>
+
+<script type="text/javascript" src="https://assets.gfycat.com/gfycat.js"></script>
