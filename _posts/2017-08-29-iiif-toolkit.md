@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Use IIIF Toolkig for Zoomable, Annotatable Images"
+title:  "Use IIIF Toolkit for Zoomable, Annotatable Images"
 date:   2017-08-29 09:00:00 -0400
 categories: tutorial iiif
 ---
