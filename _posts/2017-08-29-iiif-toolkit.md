@@ -31,6 +31,6 @@ When the import completes, you will have a new item for each image represented i
 
 If you find that you've imported more than you've bargained for, you can run a search for items sourced to the IIIF manifest, and delete them all via the search results page there.
 
-<div class="gfycontainer"><div class='gfyitem' data-id='MaleInformalKookaburra' data-autoplay='false' data-responsive='true'></div></div>
+<div style='position:relative; padding-bottom:calc(57.06% + 44px)'><iframe src='https://gfycat.com/ifr/MaleInformalKookaburra?autoplay=0&controls=1&hd=1' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div><p> <a href="https://gfycat.com/MaleInformalKookaburra">via Gfycat</a></p>
 
 <script type="text/javascript" src="https://assets.gfycat.com/gfycat.js"></script>
